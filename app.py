@@ -21,7 +21,7 @@ if api_key:
             
             try:
                 response = client.models.generate_content(
-                    model="gemini-2.0-flash",
+                    model="gemini-2.5-flash-latest",
                     config={'system_instruction': system_instruction},
                     contents=user_prompt
                 )
