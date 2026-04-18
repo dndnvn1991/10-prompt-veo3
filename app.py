@@ -1,5 +1,5 @@
 import streamlit as st
-from google import genai
+from google.generativeai import genai
 
 # Cấu hình giao diện trang web
 st.set_page_config(page_title="Veo 3 Prompt Generator", page_icon="🎥")
